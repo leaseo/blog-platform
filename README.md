@@ -1,6 +1,6 @@
 # blogging-platform
 
-Technical Assessment Back End Developer - by Mariano Sabatucci
+Technical Assessment Back End Developer - by Leandro Seoane
 
 ## Getting Started
 
@@ -12,7 +12,7 @@ To clone and run this application, you'll need Git and Node.js installed on your
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/marosaba83/blog-platform
+$ git clone https://github.com/leaseo/blog-platform
 
 # Go into the repository
 $ cd blog-platform
@@ -59,4 +59,4 @@ In order to try out every endpoint, a [Postman collection] (https://www.getpostm
 
 ## Authors
 
-* **Mariano Sabatucci** - *Initial work* - [marosaba83](https://github.com/marosaba83)
+* **Leandro Seoane** - *Initial work* - [leaseo](https://github.com/leaseo)

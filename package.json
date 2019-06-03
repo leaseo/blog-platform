@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marosaba83/blog-platform.git"
+    "url": "https://github.com/leaseo/blog-platform"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/marosaba83/blog-platform/issues"
+    "url": "https://github.com/leaseo/blog-platform/issues"
   },
-  "homepage": "https://github.com/marosaba83/blog-platform#readme",
+  "homepage": "https://github.com/leaseo/blog-platform#readme",
   "dependencies": {
     "bcrypt": "^3.0.6",
     "body-parser": "^1.19.0",
