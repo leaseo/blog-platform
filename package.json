@@ -1,0 +1,51 @@
+{
+  "name": "blog-platform",
+  "version": "1.0.0",
+  "description": "Create a minimal expression of a blogging platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "babel-node --presets babel-preset-env server.js",
+    "devmon": "nodemon --watch './src/**/*.js' --watch 'server.js' --ignore 'api/**/*.spec.js' --exec 'babel-node --presets babel-preset-env' server.js",
+    "test": "mocha --require babel-core/register src/tests/*.js --timeout 5000 --sort",
+    "lint": "./node_modules/.bin/eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marosaba83/blog-platform.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marosaba83/blog-platform/issues"
+  },
+  "homepage": "https://github.com/marosaba83/blog-platform#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "chai-things": "^0.2.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^5.3.1",
+    "helmet": "^3.18.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.12"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.1"
+  }
+}
